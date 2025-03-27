@@ -35,7 +35,7 @@ console.log(y);
 let arr = [1, 2, 3, 4, 5];
 console.log(arr);
 
-arr = ['my','name','is','Priyansh'];
+arr = ['my','name','is','Abhisek'];
 console.log(arr);
 console.log(arr[0]);
 
