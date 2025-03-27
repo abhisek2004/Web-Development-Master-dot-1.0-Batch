@@ -4,5 +4,5 @@ function getStringLength(str) {
     return str.length;
 }
 
-const str = "Priyansh Patel";
+const str = "Abhisek Panda";
 console.log(`String - ${str} \nLength : ${getStringLength(str)}`);
