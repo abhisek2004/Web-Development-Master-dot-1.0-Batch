@@ -2,8 +2,8 @@
 
 // Primitive Data Types 
 // #1 - String
-let firstName = "priyansh";
-let lastName = 'patel';
+let firstName = "Abhisek";
+let lastName = 'Panda';
 let fullName = firstName + " " + lastName;
 
 console.log(firstName);
@@ -42,8 +42,8 @@ console.log(arr[0]);
 // #2 - Object 
 
 let obj = {
-    "Name" : 'Priyansh',
-    "Age" : 20
+    "Name" : 'Abhisek',
+    "Age" : 22
 };
 
 console.log(obj["Name"]);
