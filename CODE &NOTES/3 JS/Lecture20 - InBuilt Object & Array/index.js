@@ -7,10 +7,10 @@ console.log(Math.min(1, 6));
 
 // String
 console.log("String Object");
-let lastName = "Patel";
+let lastName = "Panda";
 console.log(typeof lastName);
 
-let firstName = new String("Priyansh");
+let firstName = new String("Abhisek");
 console.log(typeof firstName);
 
 let fullName = firstName + " " + lastName;
@@ -18,11 +18,11 @@ console.log(fullName);
 console.log(typeof fullName);
 
 console.log(firstName.length);
-console.log(firstName.includes("Pri"));
-console.log(firstName.startsWith("Pri"));
-console.log(firstName.endsWith("Pri"));
+console.log(firstName.includes("Abh"));
+console.log(firstName.startsWith("Abh"));
+console.log(firstName.endsWith("Abh"));
 console.log(firstName[0]);
-let anotherName = firstName.replace("Priyan", "khu") + "i";
+let anotherName = firstName.replace("Abhisek", "Pan") + "d";
 console.log(anotherName);
 
 let string = "    this is   a  string  ";
@@ -64,7 +64,7 @@ console.log(arr[3]); //7
 // Insertion
 arr.push(10);
 arr.unshift(0);
-arr.splice(4, 0, "Priyansh"); //index numberOfDeletedElements ValueInserted
+arr.splice(4, 0, "Abhisek"); //index numberOfDeletedElements ValueInserted
 
 console.log(arr);
 
@@ -80,44 +80,30 @@ arr.includes(14) ? console.log("Present") : console.log("Absent");
 let courses = [
   {
     No: 1,
-    NAme: "Priyansh",
+    NAme: "Abhisek ",
   },
   {
     No: 2,
-    NAme: "Harshit",
+    NAme: "Guddul",
   },
 ];
 console.log(courses);
 
-// Includes and indexOf not works with references 
-// console.log(
-//   courses.includes({
-//     No: 1,
-//     NAme: "Priyansh",
-//   })
-// );
-
-// console.log(
-//   courses.indexOf({
-//     No: 1,
-//     NAme: "Priyansh",
-//   })
-// );
 
 
 let course = courses.find(function(course) {
-    return course.NAme === "Priyansh";
+    return course.NAme === "Abhisek";
 });
 
 console.log(course);
 
 course = courses.find(function(course) {
-    return course.NAme === "Bhosu";
+    return course.NAme === "Guddul";
 });
 
 console.log(course);
 
-course = courses.find(course => course.NAme === "Priyansh");
+course = courses.find(course => course.NAme === "Abhisek");
 console.log(course);
 
 let num = [10,20,30,40,50,60,70,80];
