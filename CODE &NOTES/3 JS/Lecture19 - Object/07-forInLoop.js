@@ -4,7 +4,7 @@ const Employee = {
 
     address : {
         street : 69,
-        colony : "L_LASAN",
+        colony : "Giet",
         district : "No Way Home",
     }
 }
