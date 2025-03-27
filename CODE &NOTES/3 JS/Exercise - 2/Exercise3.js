@@ -16,4 +16,4 @@ function countLetters(str)
     return count;
 }
 
-console.log(countLetters("My Name is Priyansh PAtel"));
+console.log(countLetters("My Name is Abhise Panda"));
