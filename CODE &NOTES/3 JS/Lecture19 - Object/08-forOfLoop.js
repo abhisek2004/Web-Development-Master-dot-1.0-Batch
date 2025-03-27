@@ -1,4 +1,4 @@
-let arr = ["MyName","is","Priyansh","Patel"];
+let arr = ["MyName","is","Abhisek","Panda"];
 for(let key of arr) {
     console.log(key);
 }
