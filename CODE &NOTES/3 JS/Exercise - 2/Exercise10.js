@@ -22,9 +22,9 @@ console.log(maxObj1); // { name: 'orange', price: 3 }
 
 // Test case 2
 const arr2 = [
-    { name: "Priyansh", age: 20 },
-    { name: "Khushi", age: 18 },
-    { name: "Prishi", age: 17 },
+    { name: "Abhisek", age: 22 },
+    { name: "Arpita", age: 18 },
+    { name: "Amrita", age: 17 },
 ];
 const maxObj2 = findMaxByProperty(arr2, "age");
 console.log(maxObj2); // { name: 'Nidhi', age: 21 }
