@@ -62,8 +62,8 @@ console.log(mulitplication(2,3,4));//24
 console.log(mulitplication(2,3));//6
 
 let person = {
-    firstName : "Priyansh",
-    lastName : "Patel",
+    firstName : "Abhisek",
+    lastName : "Panda",
     get fullName(){
         return `${person.firstName} ${person.lastName}`;
     },
@@ -83,7 +83,7 @@ console.log(person);
 console.log(person.firstName);
 console.log(person.lastName);
 console.log(person.fullName);
-person.fullName = "Harshit Devda";
+person.fullName = "Harshit ";
 console.log(person.fullName);
 
 // Try Catch 
