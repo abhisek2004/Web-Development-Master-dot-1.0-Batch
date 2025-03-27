@@ -8,22 +8,22 @@ function valueOfObject(arrOfObj, propertyName) {
 
 const obj = [
     {
-        Name: "Priyansh",
+        Name: "Abhisek",
         Age: 20,
-        City: "Goa",
+        City: "Jajpur",
         Gender: "Male"
     },
     {
         Name: "Khushi",
         Age: 17,
-        City: "Goa",
+        City: "Jajpur",
         Gender: "Female"
     },
     {
         Name: "Bhosu",
         Age: 20,
         City: "Delhi",
-        Gender: "Transgender"
+        Gender: "Female"
     },
     {
         Name: "Sumit",
