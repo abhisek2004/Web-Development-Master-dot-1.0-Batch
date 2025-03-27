@@ -4,4 +4,4 @@ function reverseString(str){
     const reverseStr = str.split("").reverse().join("");
 }
 
-console.log(reverseString("Priyansh"));
+console.log(reverseString("Abhisek"));
