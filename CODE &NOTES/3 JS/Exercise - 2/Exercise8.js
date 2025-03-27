@@ -6,9 +6,9 @@ function keyOfObject(obj) {
 }
 
 const obj = {
-    Name: "Priyansh",
-    Age: 20,
-    City: "Goa",
+    Name: "Abhisek",
+    Age: 22,
+    City: "Jajpur",
     Gender: "Male"
 }
 
