@@ -11,7 +11,7 @@ function filterString(strings) {
     return result;
 }
 
-const strings = ["Priyansh", "Khushi", "Queen", "King", "Prishi", "Prish"];
+const strings = ["Abhisek", "Panda", "Queen", "King", "Rohit", "Sharma"];
 
 console.log(strings);
 console.log(filterString(strings));
