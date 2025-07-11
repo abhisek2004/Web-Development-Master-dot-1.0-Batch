@@ -2,7 +2,7 @@
 
 ## Reporting a Vulnerability
 
-Please email: security@yourdomain.com or open a private GitHub issue and add label `security`.
+Please **Email**: abhisek2004panda@gmail.com or open a private GitHub issue and add label `security`.
 
 ## Response Process
 
